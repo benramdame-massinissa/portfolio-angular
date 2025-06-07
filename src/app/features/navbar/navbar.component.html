@@ -1,0 +1,19 @@
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand">My App</a>
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link active">Home</a>
+            </li>
+        </ul>
+        <div class="d-flex">
+            <div class="d-flex" role="search">
+                <!-- <input class="form-control me-2" type="search" placeholder="Rechercher"> -->
+                <input [value] = "searchInput">
+            </div>
+        </div>
+    </div>
+</nav>
+<!--
+ [(ngModel)]="searchInput"
+-->
